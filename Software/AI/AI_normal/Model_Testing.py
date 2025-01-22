@@ -18,9 +18,8 @@ def load_and_preprocess_image(url):
     return img
 
 def main():
-    # Beispiel-URL für ein Bild
-    url = 'https://www.gopichandrakesan.com/wp-content/uploads/2021/05/Image-9-from-MNIST-1280-x-640-V1.0.png'
-    
+   
+    url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfFGp5r2AhHK2JoxyC6_tx6-8EsPAOxpn2HT6DLkGTCrUt8xG0ymrkqzz_CCqfxq8W3nE&usqp=CAU'
  
     img = load_and_preprocess_image(url)
 
