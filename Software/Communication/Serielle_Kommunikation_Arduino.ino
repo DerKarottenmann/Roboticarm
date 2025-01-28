@@ -19,7 +19,7 @@ void loop()
   Servomotor1.write(0);
   if (Serial.available() > 0) {
     String inputString = Serial.readStringUntil('\n');
-    Serial.println("Echo" + inputString);
+    Serial.println("Echo:" + inputString);
     String substrMotor = inputString.substring(0, 1);
     String IntsubstrDegrees = inputString.substring(1);
     int substrDegrees =  IntsubstrDegrees.toInt();
